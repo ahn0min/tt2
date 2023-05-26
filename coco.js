@@ -18,7 +18,7 @@ const attributes = {
   src: `https://reviewtwits.shop/review?projectName=${projectName}&productURL=${window.location.href}&title=${openGraphs.title}&image=${openGraphs.image}`,
   width: "100%",
   height: "700px",
-  ...iframeAttributes,
+  // ...iframeAttributes,
 };
 
 // set $iframe
