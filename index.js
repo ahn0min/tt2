@@ -1,5 +1,10 @@
 // const reviewTwits = {};
 
+const openGraphs = {
+  title: "",
+  image: "",
+};
+
 // const IFrame = () => {
 const $reviewTwitThread = document.getElementById("review_twits_thread");
 const $iframe = document.createElement("iframe");
